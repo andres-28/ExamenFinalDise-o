@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Final</title>
+    <meta name="author" content="Andres Fabian">
+    <meta name="description" content="Ejercicio de Final">
+    <!-- Librerías -->
+    <link rel="stylesheet" href="./librerias/normalize.css">
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="contenedor">
+            <div class="logo">
+                <img src="imagenes/andres.png" alt="Logo">
+            </div>
+            <div class="enlacesSombra"></div>
+            <div class="enlaces">
+                <a href="#">Opción 1</a>
+                <a href="#">Opción 2</a>
+                <a href="#">Opción 3</a>
+                <a href="#">Opción 4</a>
+            </div>
+            <div class="botonMenu">
+                <img src="./botones/menu.svg" alt="Botón de menú" id="botonMenu">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Demo de Menú HTML-CSS-JS</h1>
+        <section class="contenedorPrincipal">
+            <section class="menuTab">
+                <label for="mTabSel1" class="eTabSel">Arequipa</label>
+                <label for="mTabSel2" class="eTabSel">Cajamarca</label>
+                <label for="mTabSel3" class="eTabSel">Cuzco</label>
+                <label for="mTabSel4" class="eTabSel">Lima</label>
+            </section>
+            <section class="menuContenidoTab">
+                <input type="radio" name="eTabSel" class="contenidoTab" id="mTabSel1" checked="true">
+                <div class="tabSel tabSel1">
+                    <h2 class="titulo2">Reseña</h2>
+                    <div class="bloqueSel">
+                        <div class="marcoImg">
+                            <img src="imagenes/Arequipa.jpg" alt="Foto 1">
+                        </div>
+                        <p>
+                           En 1540, Francisco Pizarro decretó la fundación de Arequipa, una ciudad situada a orillas del río Chili que no tardó en convertirse en un importante centro comercial del sur de Perú y llegó a ser capital de la República durante la presidencia de Lizardo Montero.
+
+                           Hoy en día, esta metrópoli que funciona como capital tanto de la provincia como del departamento homónimo es un interesante destino que eligen turistas de todo el mundo para apreciar de cerca el pasado y la cultura peruana. Los viajeros tienen la posibilidad de recorrer un casco histórico impactante que ha sido reconocido por la UNESCO como Patrimonio Cultural de la Humanidad y sorprenderse con los atractivos espacios que se encuentran a su alrededor.
+
+                           La Basílica Catedral de Arequipa, el Museo Histórico Municipal, el Palacio de Goyeneche, el Monasterio de Santa Catalina de Siena y la Casa de Tristán del Pozo son sólo algunos de los sitios que todo visitante debe apreciar para conocer la historia, el perfil religioso y las riquezas arquitectónicas que atesora la ciudad.
+                        </p>
+                    </div>
+                </div>
+                <input type="radio" name="eTabSel" class="contenidoTab" id="mTabSel2">
+                <div class="tabSel tabSel2">
+                    <h2 class="titulo2">Reseña</h2>
+                    <div class="bloqueSel">
+                        <div class="marcoImg">
+                            <img src="imagenes/Cajamarca.jpg" alt="Foto 2">
+                        </div>
+                        <p>
+                            El origen de la ciudad de Cajamarca se inicia hace más de 3 mil años con los primeros grupos humanos Huacaloma, Layzón, Combe Mayo y Otuzco. Alcanzó su mayor desarrollo entre los años 500 y mil de nuestra era como centro poblado de la cultura Caxamarca. En noviembre de 1532, Cajamarca fue escenario de uno de los acontecimientos más trascendentes de la Historia Universal, cuando un grupo de españoles al mando del conquistador Francisco Pizarro hizo prisionero al Inca Atahualpa, produciéndose el encuentro de dos mundos, el origen del mestizaje y la nueva época en la historia del Perú.
+                            La ciudad de Cajamarca se constituye como capital del departamento del mismo nombre por Decreto Supremo del 11 de febrero de 1855, dado por el Mariscal Ramón Castilla. El 14 de setiembre de 1986, la Organización de Estados Americanos la declara como Patrimonio Histórica y Cultural de Las Américas.
+                        </p>
+                    </div>
+                </div>
+                <input type="radio" name="eTabSel" class="contenidoTab" id="mTabSel3">
+                <div class="tabSel tabSel3">
+                    <h2 class="titulo2">Reseña</h2>
+                    <div class="bloqueSel">
+                        <div class="marcoImg">
+                            <img src="imagenes/Cuzco.jpg" alt="Foto 3">
+                        </div>
+                        <p>
+                            Según cuenta la leyenda recogida por el Inca Garcilaso de la Vega, La sagrada ciudad del Cusco y capital del Imperio del Tahuantinsuyo, fue fundada alrededor de los siglos XI y XII d.C. por el Inca Manco Cápac, quien emergió del Lago Titicaca. Cusco fue el centro de gobierno de las cuatro extensas regiones del Imperio Incaico, el Tawantinsuyo (que significa los 4 suyos): Antisuyo, Collasuyo, Chinchaysuyo y Contisuyo, que llegó a abarcar gran parte de lo que actualmente es Ecuador, Colombia, Perú Bolivia, Argentina y chile.
+
+                            Por datos arqueológicos y antropológicos se ha ido estudiando el verdadero proceso de la ocupación del Cuzco. El consenso señala que, debido al colapso del reino de Tiahuanaco se produjo la migración de su pueblo. Este grupo de cerca de 500 hombres se habría establecido paulatinamente en el valle del río Huatanay, proceso que culminaría con la fundación del Cuzco. Se desconoce la fecha aproximada, pero gracias a vestigios se acuerda que el emplazamiento donde se ubica la ciudad ya se encontraba habitada hace 3000 años.
+                        </p>
+                    </div>
+                </div>
+                <input type="radio" name="eTabSel" class="contenidoTab" id="mTabSel4">
+                <div class="tabSel tabSel4">
+                    <h2 class="titulo2">Reseña</h2>
+                    <div class="bloqueSel">
+                        <div class="marcoImg">
+                            <img src="imagenes/Lima.jpg" alt="Foto 4">
+                        </div>
+                        <p>
+                            La Ciudad de Lima, más conocida como "La Ciudad de los Reyes" fue fundada el 18 de enero de 1535, a orillas del río Rímac, por el conquistador Francisco Pizarro, debido a las magníficas condiciones estratégicas y geográficas. La palabra Lima, proviene de Rímac - vocablo quechua, idioma oficial en el imperio incaico, que significa "hablador"-. Durante el virreynato, entre los siglos XVI y XVII, se convirtió en la ciudad más importante y poderosa de esta parte del continente, siendo centro de todas las actividades comerciales y culturales. El 28 de julio de 1821, tras la decadencia del virreynato, y luego de una serie de movimientos políticos y de emancipación, el general José de San Martín proclama en la localidad de Huaura, la independencia del Perú y se inicia desde entonces la etapa republicana.
+                            El departamento de Lima se encuentra ubicado en la zona central occidental del país. Por un lado lo bañan las aguas del Océano Pacífico y por el otro se encuentran Los Andes de la Sierra. Tiene una extensión de 33 mil 820 kilómetros cuadrados y su población supera los 7 millones de habitantes, casi un tercio de todos los habitantes del Perú. Su capital es la ciudad de Lima, una de las más importantes de Sudamérica y declarada Patrimonio Cultural de la Humanidad. Tiene un clima suave y fresco durante todo el año, debido a su proximidad a las playas y ausencia de lluvias.
+                            Platos y Bebidas Tipicas
+                            Por su cercanía al mar, los principales potajes limeños son a base de pescados y mariscos. Sobresalen entre ellos el famoso cebiche, el escabeche, las conchitas a la parmesana y el cocktail de camarones. Otros platos limeños muy conocidos son el cau-cau, los anticuchos y el ají de gallina. Asimismo hay típicos postres como la mazamorra morada, picarones, suspiro a la limeña, arroz con leche y el turrón de Doña Pepa. Entre las bebidas refrescantes se recomienda la chicha morada y entre los aperitivos el internacional pisco sour, cocktail en base al pisco y limón peruanos y azucar.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="./script/script.js"></script>    
+</body>
+</html>
